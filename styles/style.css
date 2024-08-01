@@ -520,3 +520,45 @@
     font-size: 10px;
   }
 }
+
+/* Reviews */
+.reviews {
+  padding-top: 33px;
+  padding-bottom: 50px;
+}
+.reviews-title {
+  font-size: 23px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #000;
+  margin-bottom: 57px;
+}
+.reviews__body {
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px 230px 230px;
+  gap: 10px;
+  max-width: 1430px;
+  margin: 0 auto;
+}
+.reviews__body-img {
+  width: 230px;
+}
+
+@media screen and (max-width: 1439px) {
+  .reviews__body {
+    grid-template-columns: 230px 230px 230px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .reviews__body {
+    grid-template-columns: 230px 230px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .reviews__body {
+    grid-template-columns: 230px;
+    justify-content: center;
+  }
+}
