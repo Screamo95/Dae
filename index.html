@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/fonts.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.min.css">
   <title>Dae</title>
 </head>
 <body>
@@ -17,10 +17,10 @@
     </div>
     <div class="header__top">
       <div class="header__nav">
-        <a href="#" class="header__nav-link">Shop</a>
-        <a href="#" class="header__nav-link">The Edit</a>
-        <a href="#" class="header__nav-link">Our Story</a>
-        <a href="#" class="header__nav-link">Reviews</a>
+        <a href="#shop" class="header__nav-link">Shop</a>
+        <a href="#banner" class="header__nav-link">The Edit</a>
+        <a href="#story" class="header__nav-link">Our Story</a>
+        <a href="#reviews" class="header__nav-link">Reviews</a>
       </div>
       <div class="burger__open">
         <div class="burger__open-line"></div>
@@ -30,16 +30,16 @@
       <div class="burger__menu">
         <div class="burger__menu-inner">
           <ul class="burger__nav">
-            <a href="#" class="burger__nav-link">
+            <a href="#shop" class="burger__nav-link">
               <li class="burger__nav-link">Shop</li>
             </a>
-            <a href="#" class="burger__nav-link">
+            <a href="#banner" class="burger__nav-link">
               <li class="burger__nav-link">The Edit</li>
             </a>
-            <a href="#" class="burger__nav-link">
+            <a href="#story" class="burger__nav-link">
               <li class="burger__nav-link">Our Story</li>
             </a>
-            <a href="#" class="burger__nav-link">
+            <a href="#reviews" class="burger__nav-link">
               <li class="burger__nav-link">Reviews</li>
             </a>
           </ul>
@@ -73,7 +73,7 @@
   </header>
 
   <!-- Shop -->
-  <section class="shop">
+  <section class="shop" id="shop">
     <div class="shop__container">
       <h2 class="shop-title">Pick a Pretty Bottle</h2>
       <div class="shop__body">
@@ -97,7 +97,7 @@
   </section>
 
   <!-- Banner -->
-  <section class="banner">
+  <section class="banner" id="banner">
     <div class="banner__container">
       <img src="img/banner.png" alt="Banner" class="banner-img">
       <div class="banner__box">
@@ -108,7 +108,7 @@
   </section>
 
   <!-- Story -->
-  <section class="story">
+  <section class="story" id="story">
     <div class="story__container">
       <img src="img/story.png" alt="Photo" class="story-img">
       <div class="story__box">
@@ -120,7 +120,7 @@
   </section>
 
   <!-- Reviews -->
-  <section class="reviews">
+  <section class="reviews" id="reviews">
     <h2 class="reviews-title">Follow Us @daehair</h2>
     <div class="reviews__body">
       <img src="img/reviews_item-1.png" class="reviews__body-img">
