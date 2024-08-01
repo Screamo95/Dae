@@ -311,7 +311,7 @@
 /* Banner */
 .banner {
   padding-top: 24.5px;
-  padding-bottom: 50px;
+  padding-bottom: 48px;
   padding-right: 30px;
   padding-left: 30px;
 }
@@ -407,5 +407,116 @@
   }
   .banner__container {
     max-width: 260px;
+  }
+}
+
+/* Story */
+.story {
+  background: #f1d3b9;
+  padding-top: 60.5px;
+  padding-bottom: 61px;
+}
+.story__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.story-img {
+  width: 632px;
+  margin-left: 13px;
+}
+.story__box {
+  width: 518px;
+  height: 582px;
+  background: #f8f8f8;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 52px;
+  position: absolute;
+  top: 224px;
+  left: 595px;
+}
+.story__box-title {
+  font-size: 30px;
+  line-height: 192%;
+  color: #b45f4d;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.story__box-txt {
+  font-size: 19px;
+  line-height: 160%;
+  color: #b45f4d;
+  margin-bottom: 41px;
+}
+.story__box-link {
+  font-size: 16px;
+  line-height: 160%;
+  color: #b45f4d;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1150px) {
+  .story__box {
+    left: 450px;
+  }
+  .story__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .story-img {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .story__container {
+    max-width: 690px;
+    flex-direction: column;
+  }
+  .story__box {
+    width: 632px;
+    height: auto;
+    position: static;
+  }
+}
+@media screen and (max-width: 700px) {
+  .story__container {
+    max-width: 460px;
+    flex-direction: column;
+  }
+  .story__box {
+    width: 400px;
+  }
+  .story-img {
+    width: 400px;
+  }
+  .story__box-title {
+    font-size: 24px;
+  }
+  .story__box-txt {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .story__container {
+    max-width: 320px;
+  }
+  .story__box {
+    padding: 25px 15px;
+  }
+  .story__box {
+    width: 260px;
+  }
+  .story-img {
+    width: 260px;
+  }
+  .story__box-txt {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .story__box-link {
+    font-size: 10px;
   }
 }
